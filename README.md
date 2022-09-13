@@ -9,6 +9,7 @@ terraform-http-backend
 Description
 -----------
 
+- This **will** **eventually** support ACLs so that users can plan but not apply
 - Supports locking
 - No account management needed
 	- Any `POST` to a unique URL path + username + password combination will be saved as a new state
